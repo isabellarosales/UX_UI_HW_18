@@ -129,3 +129,26 @@ background-color: #33808F;
     width: 600px;
     padding:4%;
 }
+
+/* media query */
+@media only screen and (max-width: 600){
+    flex-direction: column;
+    .OWflex_child{
+        width:100%;
+    }
+    .flexchild{
+        width:100%;
+    }
+    .flexitem{
+        width:100%;
+    }
+    .footerflex_child1{
+        width: 100%;
+    }
+    .footerflex_child2{
+        width:100%;
+    }
+    .footerflex_child3{
+        width:100%;
+    }
+}
